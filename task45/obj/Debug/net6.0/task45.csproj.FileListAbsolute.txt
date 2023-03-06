@@ -1,0 +1,15 @@
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.csproj.AssemblyReference.cache
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.AssemblyInfoInputs.cache
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.AssemblyInfo.cs
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.csproj.CoreCompileInputs.cache
+C:\Users\сам\Desktop\дз\task45\bin\Debug\net6.0\task45.exe
+C:\Users\сам\Desktop\дз\task45\bin\Debug\net6.0\task45.deps.json
+C:\Users\сам\Desktop\дз\task45\bin\Debug\net6.0\task45.runtimeconfig.json
+C:\Users\сам\Desktop\дз\task45\bin\Debug\net6.0\task45.dll
+C:\Users\сам\Desktop\дз\task45\bin\Debug\net6.0\task45.pdb
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.dll
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\refint\task45.dll
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.pdb
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\task45.genruntimeconfig.cache
+C:\Users\сам\Desktop\дз\task45\obj\Debug\net6.0\ref\task45.dll
