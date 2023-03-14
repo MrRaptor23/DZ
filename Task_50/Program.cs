@@ -5,53 +5,45 @@
 // 8 4 2 4
 // 1, 7 -> такого элемента в массиве нет
 
-int[,] CreateMatrixRndInt(int rows, int columns, int min, int max)
-{
-  int[,] matrix = new int[rows, columns]; // 0 , 1
-  Random rnd = new Random();
+Console.WriteLine("введите номер строки");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите номер столбца");
+int m = Convert.ToInt32(Console.ReadLine());
+int [,] numbers = new int [10,10];
+FillArrayRandomNumbers(numbers);
 
-  for (int i = 0; i < matrix.GetLength(0); i++) // rows
-  {
-    for (int j = 0; j < matrix.GetLength(1); j++) // columns
+if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
+{
+    Console.WriteLine("такого элемента нет");
+}
+else
+{
+    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]}");
+}
+
+PrintArray(numbers);
+
+void FillArrayRandomNumbers(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+        {        
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                array [i,j] = new Random().Next(-100, 100)/10;
+            }   
+        }
+}
+
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-      matrix[i, j] = rnd.Next(min, max + 1);
+        Console.Write("[ ");
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i,j] + " ");
+        }   
+        Console.Write("]");
+        Console.WriteLine(""); 
     }
-  }
-  return matrix;
 }
-
-
-void PrintMatrix(int[,] matrix)
-{
-  for (int i = 0; i < matrix.GetLength(0); i++)
-  {
-    Console.Write("|");
-    for (int j = 0; j < matrix.GetLength(1); j++)
-    {
-      if (j < matrix.GetLength(1) - 1) Console.Write($"{matrix[i, j], 3}, ");
-      else Console.Write($"{matrix[i, j], 3}");
-    }
-    Console.WriteLine("|");
-  }
-}
-
-void FindPositionMatrix (int [,] matrix)
-{
-  Console.Write("Введите строку: ");
-  int pos1 = Convert.ToInt32(Console.ReadLine()) - 1;
-  Console.Write("Введите столбец: ");
-  int pos2 = Convert.ToInt32(Console.ReadLine()) - 1;
-  if ((pos1 <= matrix.GetLength(0)-1) && (pos2 <= matrix.GetLength(1) -1))
-  {
-    Console.WriteLine("Значение элемента массива = {0}", matrix[pos1, pos2]);
-  }
-  else
-  {
-    Console.WriteLine("Элемент не существует");
-  }  
-}
-
-int[,] array2d = CreateMatrixRndInt(3, 4, 1, 5);
-PrintMatrix(array2d);
-Console.WriteLine();
-FindPositionMatrix(array2d);
