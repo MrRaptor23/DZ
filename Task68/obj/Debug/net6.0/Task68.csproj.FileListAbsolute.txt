@@ -1,0 +1,15 @@
+C:\Users\сам\Desktop\дз\Task68\bin\Debug\net6.0\Task68.exe
+C:\Users\сам\Desktop\дз\Task68\bin\Debug\net6.0\Task68.deps.json
+C:\Users\сам\Desktop\дз\Task68\bin\Debug\net6.0\Task68.runtimeconfig.json
+C:\Users\сам\Desktop\дз\Task68\bin\Debug\net6.0\Task68.dll
+C:\Users\сам\Desktop\дз\Task68\bin\Debug\net6.0\Task68.pdb
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.csproj.AssemblyReference.cache
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.AssemblyInfoInputs.cache
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.AssemblyInfo.cs
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.csproj.CoreCompileInputs.cache
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.dll
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\refint\Task68.dll
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.pdb
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\Task68.genruntimeconfig.cache
+C:\Users\сам\Desktop\дз\Task68\obj\Debug\net6.0\ref\Task68.dll
